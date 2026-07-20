@@ -1,0 +1,9 @@
+# Track only this policy and the six original Grafana dashboard exports.
+/*
+!/.gitignore
+!/All plant CAA Dashboard-1784522675134.json
+!/All Plant Coagulant Tank-1784522685468.json
+!/All Plant Main Dashboard-1784522693960.json
+!/All plant Mixing Tank-1784522701556.json
+!/All Plants Bulk Tank-1784522718750.json
+!/Navigate-1784522729271.json

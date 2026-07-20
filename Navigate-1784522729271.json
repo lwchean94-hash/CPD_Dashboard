@@ -1,0 +1,227 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 357,
+  "links": [],
+  "panels": [
+    {
+      "datasource": {
+        "uid": "-- Grafana --"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 23,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "options": {
+        "SVGBaseFix": true,
+        "add100Percentage": true,
+        "calcsMutation": "standard",
+        "centerAlignContent": true,
+        "codeData": "{\n  \"text\": \"Random text\"\n}",
+        "css": "* {\nfont-family: Open Sans;\nfont-size: 1em;\n}\n\n.rect {\n    background-color: #cbd5e6;\n    border-radius: 10px;\n}\n\n.container {\ndisplay: flex;\nflex-direction: column;\nalign-items: center;\njustify-content: center;\n}\n\n/* .outer_grid_container-1 {\ndisplay: grid;\njustify-content: center;\nalign-items: center;\ngrid-template-columns: 25% 25%;\ngap: 0.8rem;\nmargin-left: 7.5rem;\nmargin-right: 7.5rem;\n} */\n\n.outer_grid_container {\ndisplay: grid;\njustify-content: center;\nalign-items: center;\ngrid-template-columns: 33% 33% 33%;\ngap: 0.8rem;\nmargin-left: 2rem;\nmargin-right: 2rem;\n}\n\n.btn_container {\ndisplay: grid;\njustify-content: center;\nalign-items: center;\ngrid-template-columns: 95% 5%;\npadding-left: 1rem;\npadding-right: 1rem;\npadding-top: 0.4rem;\npadding-bottom: 0.4rem;\nbackground-color: #273c75;\n}\n\n.btn_container:hover{\nbackground-color: #0B346E;\n}\n\n.title {\ndisplay: flex;\nflex-direction: row;\n}\n\n.rect * {\n/* color: #000; */\ncolor: #FFF;\npadding-top: 0.4rem;\npadding-bottom: 0.4rem;\n}\n\nsvg {\npadding-top: 0.5em;\npadding-bottom: 0.5em;\n}\n\n.btn {\n  background-color: #156082;\n  padding: 0;\n  font-weight: 600;\n  border: none;\n  background: none;\n  font-size: 1.5rem;\n}\n\n.btn-title\n{\n  text-decoration: none !important;\n  font-size: 1.5rem;\n  font-weight: 500;\n  color: #FFF;\n}\n\n.btn-link\n{\n  text-decoration: none !important;\n  font-size: 1.5rem;\n  font-weight: 500;\n  color: #FFF;\n  cursor: pointer;\n}\n\n.btn-link:hover\n{\n  color: #F7D94C !important;\n}\n\n.btn-link.items {\n  font-size: 1.3rem;\n  font-weight: 600;\n}",
+        "dynamicData": false,
+        "dynamicFieldDisplayValues": false,
+        "dynamicHtmlGraphics": false,
+        "dynamicProps": false,
+        "html": "<div>\n  \n \n    <div id=\"dropdown_panel\" style=\"display: block;\">\n\n        <div style=\"text-align: center; margin-bottom: 20px;\">\n            <h2 style=\"\n                color: #ffffff;\n                font-family: 'Orbitron', sans-serif;\n                letter-spacing: 1px;\n                font-weight: 600;\n            \">\n                COMPOUNDING SYSTEM NAVIGATION\n            </h2>\n        </div>\n        <div class=\"outer_grid_container\">\n           \n             \n             <div class=\"rect\" style=\"background-color: #156082;\">\n                <div class=\"container\">\n                    <a class=\"btn-link items\" id=\"page1\">\n                        Plant 1\n                    </a>\n                </div>\n            </div>\n             <div class=\"rect\" style=\"background-color: #156082;\">\n                <div class=\"container\">\n                    <a class=\"btn-link items\" id=\"page2\">\n                        Plant 2\n                    </a>\n                </div>\n            </div>\n             <div class=\"rect\" style=\"background-color: #156082;\">\n                <div class=\"container\">\n                    <a class=\"btn-link items\" id=\"page3\">\n                        Plant 3\n                    </a>\n                </div>\n            </div>\n             <div class=\"rect\" style=\"background-color: #156082;\">\n                <div class=\"container\">\n                    <a class=\"btn-link items\" id=\"page4\">\n                        Plant 4\n                    </a>\n                </div>\n            </div>\n             <div class=\"rect\" style=\"background-color: #156082;\">\n                <div class=\"container\">\n                    <a class=\"btn-link items\" id=\"page5\">\n                        Plant 5\n                    </a>\n                </div>\n            </div>\n             <div class=\"rect\" style=\"background-color: #156082;\">\n                <div class=\"container\">\n                    <a class=\"btn-link items\" id=\"page6\">\n                        Plant 6\n                    </a>\n                </div>\n            </div>\n            <div class=\"rect\" style=\"background-color: #156082;\">\n                <div class=\"container\">\n                    <a class=\"btn-link items\" id=\"page7\">\n                        Plant 7\n                    </a>\n                </div>\n            </div>\n            <div class=\"rect\" style=\"background-color: #156082;\">\n                <div class=\"container\">\n                    <a class=\"btn-link items\" id=\"page8\">\n                        Plant 8\n                    </a>\n                </div>\n            </div>\n            <div class=\"rect\" style=\"background-color: #156082;\">\n                <div class=\"container\">\n                    <a class=\"btn-link items\" id=\"page9\">\n                        Plant 9\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>",
+        "onInit": "",
+        "onInitOnResize": false,
+        "onRender": "const compoundingUid = \"ffm0zswx4jsowa\";\n\nfor (let i = 1; i <= 9; i++) {\n  const btn = htmlNode.getElementById(`page${i}`);\n\n  if (btn) {\n    btn.setAttribute(\n      \"href\",\n      `/foresight/d/${compoundingUid}/all-plant-main-dashboard?orgId=1&from=now-6h&to=now&timezone=browser&var-plantNo=${i}`\n    );\n  }\n}\n\n\n\n//const compoundingUid = \"ad9dfvq\"; // your main compounding dashboard UID\n\n//for (let i = 1; i <= 9; i++) {\n  //const btn = htmlNode.getElementById(`page${i}`);\n  //if (btn) {\n   // btn.setAttribute(\n     // \"href\",\n      //`foresight/d/${compoundingUid}/all-plant-main-dashboard?orgId=1&from=now-6h&to=now&timezone=browser&var-plantNo=${i}`\n   // );\n // }\n//}\n\n",
+        "overflow": "visible",
+        "panelupdateOnMount": true,
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull",
+            "last",
+            "firstNotNull",
+            "first",
+            "min",
+            "max",
+            "mean",
+            "sum",
+            "count",
+            "range",
+            "delta",
+            "step",
+            "diff",
+            "logmin",
+            "allIsZero",
+            "allIsNull",
+            "diffperc"
+          ]
+        },
+        "renderOnMount": true,
+        "rootCSS": "",
+        "useGrafanaScrollbar": true
+      },
+      "pluginVersion": "2.2.1",
+      "targets": [
+        {
+          "refId": "A"
+        }
+      ],
+      "title": "",
+      "type": "gapit-htmlgraphics-panel"
+    }
+  ],
+  "preload": false,
+  "schemaVersion": 41,
+  "tags": [],
+  "templating": {
+    "list": [
+      {
+        "current": {
+          "text": "7",
+          "value": "7"
+        },
+        "hide": 2,
+        "label": "Plant Number",
+        "name": "plantNo",
+        "options": [
+          {
+            "selected": false,
+            "text": "1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "3",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "4",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "5",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "6",
+            "value": "6"
+          },
+          {
+            "selected": true,
+            "text": "7",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "8",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "9",
+            "value": "9"
+          }
+        ],
+        "query": "1,2,3,4,5,6,7,8,9",
+        "type": "custom"
+      },
+      {
+        "current": {
+          "text": "1",
+          "value": "1"
+        },
+        "hide": 2,
+        "label": "Page",
+        "name": "page",
+        "options": [
+          {
+            "selected": true,
+            "text": "Production Line Health Dashboard",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "Production Alarm Health Dashboard",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "Production Line Support Dashboard",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "Glove Handling Dashboard",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "Process Insight Dashboard",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "OEE Insight Dashboard",
+            "value": "6"
+          }
+        ],
+        "query": "Production Line Health Dashboard : 1,Production Alarm Health Dashboard : 2, Production Line Support Dashboard : 3 ,Glove Handling Dashboard : 4 , Process Insight Dashboard : 5 , OEE Insight Dashboard : 6 ",
+        "type": "custom"
+      }
+    ]
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {
+    "hidden": true
+  },
+  "timezone": "browser",
+  "title": "Navigate",
+  "uid": "cf0zrsyre639cd6",
+  "version": 2
+}
